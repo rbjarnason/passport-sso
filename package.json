@@ -1,0 +1,29 @@
+{
+  "name": "passport-sso",
+  "version": "0.0.1",
+  "description": "Single signon functionality using passport",
+  "main": "./lib",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattmccarty/passport-sso.git"
+  },
+  "keywords": [
+    "passport",
+    "sso",
+    "oauth",
+    "auth",
+    "authentication"
+  ],
+  "author": "Matt McCarty",
+  "license": "GPL-3.0",
+  "bugs": {
+    "url": "https://github.com/mattmccarty/passport-sso/issues"
+  },
+  "homepage": "https://github.com/mattmccarty/passport-sso#readme",
+  "dependencies": {
+    "passport": "^0.3.2"
+  }
+}
