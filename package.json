@@ -2,7 +2,7 @@
   "name": "passport-sso",
   "version": "0.0.1",
   "description": "Single signon functionality using passport",
-  "main": "./lib",
+  "main": "index.js",
   "scripts": {
     "test": "test"
   },
