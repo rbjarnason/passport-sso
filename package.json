@@ -1,7 +1,7 @@
 {
   "name": "passport-sso",
-  "version": "0.0.1",
-  "description": "Single signon functionality using passport",
+  "version": "1.0.0",
+  "description": "Multi-domain single signon functionality using passport",
   "main": "index.js",
   "scripts": {
     "test": "test"
