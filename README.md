@@ -17,12 +17,13 @@ See [sails-hook-sso](https://github.com/mattmccarty/sails-hook-sso) for more inf
 
 4.) Initialize SSO with hosts that your app supports and login provider details
 ```javascript
-function localLoginCallback(req, id, pw, cb) {
+function localLoginCallback(req, id, pw) {
     if (id == 'admin' && pw === 'test12345') {
-        return cb(false, { username: 'admin' });
+        console.log(false, { username: 'admin' });
+        return;
     }
 
-    return cb('Either the username or password is incorrect');
+    return console.log('Either the username or password is incorrect');
 }
 
 var sso       = require('passport-sso'),
