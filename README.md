@@ -1,5 +1,5 @@
 # passport-sso
-Multi-domain single signon functionality using passport
+Multi-domain single signon functionality using passport (still in development)
 
 I have created  project that implements this for [Sails.js](http://sailsjs.org/).
 See [sails-hook-sso](https://github.com/mattmccarty/sails-hook-sso) for more information.
