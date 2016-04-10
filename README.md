@@ -28,7 +28,7 @@ See [sails-hook-sso](https://github.com/mattmccarty/sails-hook-sso) for more inf
 
 5.) Initialize SSO with hosts that your app supports and login provider details
 ```javascript
-function bearerCallback(req, id, pw) {
+function bearerCallback(req, token) {
     return console.log('The user has tried to authenticate with a bearer token');
 }
 function localCallback(req, id, pw) {
