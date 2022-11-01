@@ -24,6 +24,6 @@
   },
   "homepage": "https://github.com/mattmccarty/passport-sso#readme",
   "dependencies": {
-    "passport": "^0.3.2"
+    "passport": "^0.6.0"
   }
 }
