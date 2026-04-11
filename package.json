@@ -1,6 +1,6 @@
 {
   "name": "passport-sso",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "Single signon functionality using passport",
   "main": "index.js",
   "scripts": {
@@ -24,7 +24,12 @@
   },
   "homepage": "https://github.com/mattmccarty/passport-sso#readme",
   "dependencies": {
-    "cookie-parser": "^1.4.6",
-    "passport": "^0.6.0"
+    "cookie-parser": "^1.4.6"
+  },
+  "peerDependencies": {
+    "passport": "^0.6.0 || ^0.7.0"
+  },
+  "devDependencies": {
+    "passport": "^0.7.0"
   }
 }

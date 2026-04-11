@@ -14,8 +14,12 @@ See [sails-hook-sso](https://github.com/mattmccarty/sails-hook-sso) for more inf
 
 ### Getting started
 
-1. ) Install PassportSSO
-```npm install passport-sso```
+1. ) Install PassportSSO and Passport in the consuming app
+```npm install passport-sso passport```
+
+Passport is a peer dependency. The consuming app must provide a single shared
+`passport` installation so `passport-sso` and the app use the same strategy
+registry and session integration.
 
 2.) Install the passport-local package
 ```npm install passport-local --save```
